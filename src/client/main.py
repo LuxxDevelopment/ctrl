@@ -1,2 +1,3 @@
-from ctrl.APIS.discord_logger import logMessage
-from ctrl.APIS.discord_logger import sendFile
+from ctrl.alerts import desktopActionMessage
+from winotify import audio
+desktopActionMessage("TEST", "HEY", "P:\Phyton\ctrl\src\ctrl\img\icon.png", "long", "Start CMD", "C:\WINDOWS\system32\cmd.exe", audio.LoopingAlarm10, False)
