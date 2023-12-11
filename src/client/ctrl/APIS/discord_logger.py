@@ -26,7 +26,7 @@ def sendFile(url, title="This is a Test Message from CTRL - MANAGEMENT", descrip
     loop.run_until_complete(sendFileMessage(url, title, description, file_name, file_path, color_hex))
     loop.close()
 
-def logMessage(url, title="This is a Test Message from CTRL - MANAGEMENT", description="Just a Plain ol Test message", color_hex="#FFFFFF", file=None):
+def logMessage(url, title="This is a Test Message from CTRL - MANAGEMENT", description="Just a Plain ol Test message", color_hex="#FFFFFF"):
     loop = asyncio.new_event_loop()
     loop.run_until_complete(sendNormalMessage(url, title, description, color_hex))
     loop.close()
