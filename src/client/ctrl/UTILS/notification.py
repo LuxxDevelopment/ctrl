@@ -27,5 +27,11 @@ def desktopActionMessage(title="NOTHING", msg="Just a message with nothing init"
     toast.set_audio(sound, loop=loop)
     toast.show()
 
-# desktopMessage("ALERT", "Couldn't reach Command server!", "short", audio.LoopingAlarm10, False)
-# desktopActionMessage("ALERT", "Couldn't reach Command server!", "P:\Phyton\ctrl\src\ctrl\img\icon.png","short","OPEN CONSOLE","https://youtube.com/", audio.LoopingAlarm10, False)
+
+# desktopMessage("ALERT", "Couldn't reach Command server!", "short", audio.LoopingAlarm10,
+# False) desktopActionMessage("ALERT", "Couldn't reach Command server!", "P:\Phyton\ctrl\src\ctrl\img\icon.png",
+# "short","OPEN CONSOLE","https://youtube.com/", audio.LoopingAlarm10, False)
+
+
+def ctkMessageBox():
+    pass
