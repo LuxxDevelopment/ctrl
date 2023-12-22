@@ -13,8 +13,8 @@ app.title("Modern Login UI using Customtkinter")
 
 
 def login():
-    username = "Luxx"
-    password = "12345"
+    username = "TEST"
+    password = "TEST124"
     new_window = ctk.CTkToplevel(app)
 
     new_window.title("New Window")
